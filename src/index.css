@@ -2,41 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Cybersecurity Portfolio Design System - Professional Dark Theme */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark cybersecurity theme */
+    --background: 222 14% 7%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 222 16% 10%;
+    --card-foreground: 210 40% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222 16% 10%;
+    --popover-foreground: 210 40% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Cyber blue primary */
+    --primary: 200 98% 60%;
+    --primary-foreground: 222 14% 7%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Professional secondary */
+    --secondary: 222 20% 15%;
+    --secondary-foreground: 210 40% 90%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 222 18% 12%;
+    --muted-foreground: 215 15% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Neon accent */
+    --accent: 165 100% 50%;
+    --accent-foreground: 222 14% 7%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 222 20% 20%;
+    --input: 222 20% 18%;
+    --ring: 200 98% 60%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom cyber gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(200 98% 60%), hsl(165 100% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(222 14% 7%) 0%, hsl(222 20% 10%) 50%, hsl(200 30% 15%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(222 16% 10%), hsl(222 20% 12%));
+    --gradient-accent: linear-gradient(90deg, hsl(200 98% 60%) 0%, hsl(165 100% 50%) 100%);
+    
+    /* Professional shadows */
+    --shadow-cyber: 0 4px 20px hsl(200 98% 60% / 0.2);
+    --shadow-glow: 0 0 30px hsl(165 100% 50% / 0.3);
+    --shadow-card: 0 8px 32px hsl(222 14% 5% / 0.6);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-glow: all 0.5s ease;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +117,29 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+@layer components {
+  .cyber-glow {
+    box-shadow: var(--shadow-cyber);
+    transition: var(--transition-glow);
+  }
+  
+  .cyber-glow:hover {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
   }
 }
