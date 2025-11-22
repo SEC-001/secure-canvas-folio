@@ -27,9 +27,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
+          <div className="flex items-center space-x-2 mb-4">
               <Shield className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold gradient-text">CyberSec Pro</span>
+              <span className="text-xl font-bold gradient-text">LSecurity</span>
             </div>
             <p className="text-muted-foreground mb-4">
               Professional cybersecurity services protecting your digital infrastructure from evolving threats.
@@ -77,9 +77,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>Lagos, Nigeria</p>
               <p>lekan@cybersecpro.com</p>
-              <p>+1 (555) 123-4567</p>
             </div>
           </div>
         </div>
@@ -87,7 +85,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} CyberSec Pro. All rights reserved.
+              © {currentYear} LSecurity. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm flex items-center">
               Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for cybersecurity

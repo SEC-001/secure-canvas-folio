@@ -7,7 +7,6 @@ import {
   Download, 
   ExternalLink, 
   MapPin,
-  Phone,
   Globe,
   Youtube,
   Briefcase
@@ -21,20 +20,6 @@ const Contact = () => {
       value: 'lekan@cybersecpro.com',
       href: 'mailto:lekan@cybersecpro.com',
       description: 'Get in touch for security consultations'
-    },
-    {
-      icon: Phone,
-      title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
-      description: 'Available for urgent security matters'
-    },
-    {
-      icon: MapPin,
-      title: 'Location',
-      value: 'Lagos, Nigeria',
-      href: 'https://maps.google.com/?q=Lagos,Nigeria',
-      description: 'Available for on-site consultations'
     }
   ];
 
@@ -163,14 +148,14 @@ const Contact = () => {
               <CardContent>
                 <div className="aspect-video rounded-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7475775851195!2d3.3792057!3d6.5243793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Lagos, Nigeria Location"
+                    title="New York, United States Location"
                   ></iframe>
                 </div>
               </CardContent>
@@ -189,13 +174,17 @@ const Contact = () => {
                 Let's discuss your cybersecurity challenges and create a tailored security solution for your organization.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="hero" size="lg">
-                  <Mail className="mr-2 h-5 w-5" />
-                  Email Me Now
+                <Button variant="hero" size="lg" asChild>
+                  <a href="mailto:aaa@gamil.com">
+                    <Mail className="mr-2 h-5 w-5" />
+                    Email Me Now
+                  </a>
                 </Button>
-                <Button variant="cyber" size="lg">
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Resume
+                <Button variant="cyber" size="lg" asChild>
+                  <a href="https://www.upwork.com/lekan" target="_blank" rel="noopener noreferrer">
+                    <Briefcase className="mr-2 h-5 w-5" />
+                    Upwork
+                  </a>
                 </Button>
               </div>
             </CardContent>

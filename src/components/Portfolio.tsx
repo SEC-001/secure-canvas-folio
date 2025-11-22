@@ -21,7 +21,8 @@ const Portfolio = () => {
       category: 'Penetration Testing',
       description: 'Comprehensive security assessment for a Fortune 500 company involving network infrastructure, web applications, and social engineering tests. Identified critical vulnerabilities and provided detailed remediation strategies.',
       image: portfolio1,
-      technologies: ['Kali Linux', 'Metasploit', 'Burp Suite', 'Nmap']
+      technologies: ['Kali Linux', 'Metasploit', 'Burp Suite', 'Nmap'],
+      link: 'https://pen.com'
     },
     {
       id: 2,
@@ -29,7 +30,8 @@ const Portfolio = () => {
       category: 'SOC Operations',
       description: 'Designed and implemented a complete Security Operations Center for a financial institution. Established 24/7 monitoring capabilities, incident response procedures, and threat detection systems.',
       image: portfolio2,
-      technologies: ['SIEM', 'Splunk', 'QRadar', 'Incident Response']
+      technologies: ['SIEM', 'Splunk', 'QRadar', 'Incident Response'],
+      link: 'https://soc.not'
     },
     {
       id: 3,
@@ -37,7 +39,8 @@ const Portfolio = () => {
       category: 'Compliance',
       description: 'Led ISO 27001 implementation for a healthcare organization. Developed comprehensive ISMS documentation, conducted risk assessments, and achieved successful certification audit.',
       image: portfolio3,
-      technologies: ['ISO 27001', 'Risk Assessment', 'ISMS', 'Compliance']
+      technologies: ['ISO 27001', 'Risk Assessment', 'ISMS', 'Compliance'],
+      link: 'https://iso.menot'
     },
     {
       id: 4,
@@ -45,7 +48,8 @@ const Portfolio = () => {
       category: 'Training & Education',
       description: 'Developed and delivered comprehensive cybersecurity training program for corporate executives and technical teams. Covered threat awareness, best practices, and incident response protocols.',
       image: portfolio4,
-      technologies: ['Security Awareness', 'Phishing Simulation', 'Training Design', 'KnowBe4']
+      technologies: ['Security Awareness', 'Phishing Simulation', 'Training Design', 'KnowBe4'],
+      link: 'https://program.note'
     },
     {
       id: 5,
@@ -53,7 +57,8 @@ const Portfolio = () => {
       category: 'Infrastructure Security',
       description: 'Conducted thorough network security assessment for a manufacturing company. Evaluated firewall configurations, network segmentation, and implemented advanced threat protection measures.',
       image: portfolio5,
-      technologies: ['Network Security', 'Firewall Management', 'IDS/IPS', 'Network Segmentation']
+      technologies: ['Network Security', 'Firewall Management', 'IDS/IPS', 'Network Segmentation'],
+      link: 'https://atsecur.not'
     },
     {
       id: 6,
@@ -61,7 +66,8 @@ const Portfolio = () => {
       category: 'Risk Management',
       description: 'Established enterprise-wide vulnerability management program including automated scanning, risk prioritization, and remediation tracking for a technology company.',
       image: portfolio6,
-      technologies: ['Nessus', 'Qualys', 'Risk Assessment', 'Patch Management']
+      technologies: ['Nessus', 'Qualys', 'Risk Assessment', 'Patch Management'],
+      link: 'https://vuln.me'
     },
     {
       id: 7,
@@ -69,7 +75,8 @@ const Portfolio = () => {
       category: 'Digital Forensics',
       description: 'Led critical incident response for a ransomware attack. Conducted digital forensics investigation, contained the threat, and implemented recovery procedures to restore operations.',
       image: portfolio7,
-      technologies: ['Digital Forensics', 'Malware Analysis', 'Incident Response', 'Recovery Planning']
+      technologies: ['Digital Forensics', 'Malware Analysis', 'Incident Response', 'Recovery Planning'],
+      link: 'https://inci.menot'
     },
     {
       id: 8,
@@ -77,7 +84,8 @@ const Portfolio = () => {
       category: 'Security Education',
       description: 'Designed and implemented organization-wide security awareness campaign including phishing simulations, training modules, and security culture development initiatives.',
       image: portfolio8,
-      technologies: ['Awareness Training', 'Phishing Tests', 'Security Culture', 'Behavioral Analysis']
+      technologies: ['Awareness Training', 'Phishing Tests', 'Security Culture', 'Behavioral Analysis'],
+      link: 'https://secuawa.me'
     },
     {
       id: 9,
@@ -85,7 +93,8 @@ const Portfolio = () => {
       category: 'Cloud Security',
       description: 'Designed secure cloud architecture for enterprise migration to AWS. Implemented security controls, compliance frameworks, and monitoring solutions for cloud infrastructure.',
       image: portfolio9,
-      technologies: ['AWS Security', 'Cloud Architecture', 'IAM', 'CloudTrail']
+      technologies: ['AWS Security', 'Cloud Architecture', 'IAM', 'CloudTrail'],
+      link: 'https://cloudsecur.notme'
     }
   ];
 
@@ -144,9 +153,11 @@ const Portfolio = () => {
                   ))}
                 </div>
                 
-                <Button variant="cyber" size="sm" className="w-full">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  Learn More
+                <Button variant="cyber" size="sm" className="w-full" asChild>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    Learn More
+                  </a>
                 </Button>
               </CardContent>
             </Card>
