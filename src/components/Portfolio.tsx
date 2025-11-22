@@ -120,9 +120,11 @@ const Portfolio = () => {
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
-                  <Button variant="hero" size="sm">
-                    <Eye className="mr-2 h-4 w-4" />
-                    View Details
+                  <Button variant="hero" size="sm" asChild>
+                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                      <Eye className="mr-2 h-4 w-4" />
+                      View Details
+                    </a>
                   </Button>
                 </div>
               </div>
