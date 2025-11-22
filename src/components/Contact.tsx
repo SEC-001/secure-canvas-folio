@@ -183,7 +183,7 @@ const Contact = () => {
                 <Button variant="cyber" size="lg" asChild>
                   <a href="https://www.upwork.com/lekan" target="_blank" rel="noopener noreferrer">
                     <Briefcase className="mr-2 h-5 w-5" />
-                    Let's Work On Upwork Instead
+                    Let's Work On Upwork
                   </a>
                 </Button>
               </div>
