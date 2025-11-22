@@ -32,7 +32,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold gradient-text">CyberSec Pro</span>
+            <span className="text-xl font-bold gradient-text">LSecurity</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -46,9 +46,6 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Get Started
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -77,11 +74,6 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <div className="px-3 py-2">
-                <Button variant="hero" size="sm" className="w-full">
-                  Get Started
-                </Button>
-              </div>
             </div>
           </div>
         )}

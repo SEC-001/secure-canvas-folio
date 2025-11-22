@@ -32,13 +32,16 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="lg" className="group">
-                View Portfolio
-                <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              <Button variant="hero" size="lg" className="group" asChild>
+                <a href="https://www.viewporfolio.com" target="_blank" rel="noopener noreferrer">
+                  View Portfolio
+                  <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
-              <Button variant="cyber" size="lg">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
+              <Button variant="cyber" size="lg" asChild>
+                <a href="https://contactme.not" target="_blank" rel="noopener noreferrer">
+                  Get In Touch
+                </a>
               </Button>
             </div>
           </div>
