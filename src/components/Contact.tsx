@@ -9,7 +9,8 @@ import {
   MapPin,
   Globe,
   Youtube,
-  Briefcase
+  Briefcase,
+  Phone
 } from 'lucide-react';
 
 const Contact = () => {
@@ -20,6 +21,20 @@ const Contact = () => {
       value: 'lekan@cybersecpro.com',
       href: 'mailto:lekan@cybersecpro.com',
       description: 'Get in touch for security consultations'
+    },
+    {
+      icon: Phone,
+      title: 'Phone',
+      value: '+1 (555) 123-4567',
+      href: 'tel:+15551234567',
+      description: 'Call for urgent security matters'
+    },
+    {
+      icon: MapPin,
+      title: 'Location',
+      value: 'New York, United States',
+      href: '#',
+      description: 'Available for on-site consultations'
     }
   ];
 
