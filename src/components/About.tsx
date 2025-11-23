@@ -4,8 +4,8 @@ import aboutImage from '@/assets/about-section.jpg';
 
 const About = () => {
   const stats = [
-    { icon: Shield, label: 'Security Projects', value: '150+' },
-    { icon: Target, label: 'Vulnerabilities Found', value: '500+' },
+    { icon: Shield, label: 'Security Projects', value: '50+' },
+    { icon: Target, label: 'Vulnerabilities Found', value: '100+' },
     { icon: Award, label: 'Certifications', value: '10+' },
     { icon: Users, label: 'Happy Clients', value: '50+' },
   ];
