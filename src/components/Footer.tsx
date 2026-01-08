@@ -1,4 +1,4 @@
-import { Shield, Mail, Linkedin, Github, Heart } from 'lucide-react';
+import { Shield, Mail, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -86,9 +86,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
               © {currentYear} LSecurity. All rights reserved.
-            </p>
-            <p className="text-muted-foreground text-sm flex items-center">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for cybersecurity
             </p>
           </div>
         </div>
