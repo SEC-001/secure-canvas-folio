@@ -18,8 +18,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'lekan@cybersecpro.com',
-      href: 'mailto:lekan@cybersecpro.com',
+      value: 'lekansodunke302@gmail.com',
+      href: 'mailto:lekansodunke302@gmail.com',
       description: 'Get in touch for security consultations'
     },
     {
@@ -43,7 +43,7 @@ const Contact = () => {
       icon: Linkedin,
       title: 'LinkedIn',
       value: 'Connect professionally',
-      href: 'https://linkedin.com/in/lekan-cybersec',
+      href: 'https://www.linkedin.com/in/samod-sodunkek/',
       color: 'text-blue-400'
     },
     {
@@ -64,14 +64,14 @@ const Contact = () => {
       icon: Youtube,
       title: 'YouTube',
       value: 'Security tutorials',
-      href: 'https://youtube.com/@lekancybersec',
+      href: 'https://www.youtube.com/@lsecurity_1',
       color: 'text-red-400'
     },
     {
       icon: Briefcase,
       title: 'Upwork',
       value: 'Hire me for projects',
-      href: 'https://upwork.com/freelancers/lekancybersec',
+      href: 'https://www.upwork.com/freelancers/~01c6f2aed33700e47f',
       color: 'text-green-400'
     },
     {
@@ -190,13 +190,13 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="hero" size="lg" asChild>
-                  <a href="mailto:aaa@gamil.com">
+                  <a href="mailto:lekansodunke302@gmail.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Me Now
                   </a>
                 </Button>
                 <Button variant="cyber" size="lg" asChild>
-                  <a href="https://www.upwork.com/lekan" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.upwork.com/freelancers/~01c6f2aed33700e47f" target="_blank" rel="noopener noreferrer">
                     <Briefcase className="mr-2 h-5 w-5" />
                     Let's Work On Upwork
                   </a>

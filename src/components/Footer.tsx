@@ -35,10 +35,10 @@ const Footer = () => {
               Professional cybersecurity services protecting your digital infrastructure from evolving threats.
             </p>
             <div className="flex space-x-4">
-              <a href="mailto:lekan@cybersecpro.com" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:lekansodunke302@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com/in/lekan-cybersec" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/samod-sodunkek/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="https://github.com/lekan-cybersec" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
@@ -77,7 +77,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>lekan@cybersecpro.com</p>
+              <p>lekansodunke302@gmail.com</p>
             </div>
           </div>
         </div>
