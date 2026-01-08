@@ -49,7 +49,7 @@ const Portfolio = () => {
       description: 'Developed and delivered comprehensive cybersecurity training program for corporate executives and technical teams. Covered threat awareness, best practices, and incident response protocols.',
       image: portfolio4,
       technologies: ['Security Awareness', 'Phishing Simulation', 'Training Design', 'KnowBe4'],
-      link: 'https://program.note'
+      link: 'https://www.udemy.com/course/cybersecurity-course-for-beginners/'
     },
     {
       id: 5,
@@ -86,6 +86,15 @@ const Portfolio = () => {
       image: portfolio8,
       technologies: ['Awareness Training', 'Phishing Tests', 'Security Culture', 'Behavioral Analysis'],
       link: 'https://www.knowbe4.com/free-cybersecurity-tools/automated-security-awareness-program'
+    },
+    {
+      id: 9,
+      title: 'Cloud Security Architecture',
+      category: 'Cloud Security',
+      description: 'Architected comprehensive cloud security framework for multi-cloud environment. Implemented identity management, encryption strategies, and continuous monitoring across AWS and Azure platforms.',
+      image: portfolio9,
+      technologies: ['AWS Security', 'Azure Security', 'IAM', 'Cloud Compliance'],
+      link: '#'
     }
   ];
 
