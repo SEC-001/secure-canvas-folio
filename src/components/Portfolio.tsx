@@ -31,7 +31,7 @@ const Portfolio = () => {
       description: 'Designed and implemented a complete Security Operations Center for a financial institution. Established 24/7 monitoring capabilities, incident response procedures, and threat detection systems.',
       image: portfolio2,
       technologies: ['SIEM', 'Splunk', 'QRadar', 'Incident Response'],
-      link: 'https://soc.not'
+      link: 'https://miro.com/welcomeonboard/L1RaZDlWNGc0MUt0N2dUQzY4RmNyRnY5SWVjWE5tV0JhcUpIeml3QWtVYVhhLzZTTUllTVBPZTVDbXM1cnVnOVcyTk00YjYxbnJveURNazZCcWp0UENOL2FiR2JkcTFXLzBCUG1pOE9Tam5EbE1xdHgzR0c5M0RDYjBDTmNXVkxQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=585928681496'
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const Portfolio = () => {
       description: 'Led GDPR implementation for a healthcare organization. Developed comprehensive data protection documentation, conducted privacy impact assessments, and achieved successful compliance audit.',
       image: portfolio3,
       technologies: ['GDPR', 'Risk Assessment', 'Data Protection', 'Compliance'],
-      link: '#'
+      link: 'https://docs.google.com/document/d/1bhM27e7qZAnwZ-0x5AB__wFXF7F_CcONSTAxY9wki9A/edit?tab=t.0#heading=h.wsvkl1icwpdi'
     },
     {
       id: 4,
@@ -94,7 +94,7 @@ const Portfolio = () => {
       description: 'Architected comprehensive cloud security framework for multi-cloud environment. Implemented identity management, encryption strategies, and continuous monitoring across AWS and Azure platforms.',
       image: portfolio9,
       technologies: ['AWS Security', 'Azure Security', 'IAM', 'Cloud Compliance'],
-      link: '#'
+      link: 'https://miro.com/welcomeonboard/WHVWL2N6dVdXM0Y0VE1uRVhQaVB6RW13TFF1eTZldkt6MnVhSWlSSjNTS25QMTcwTGNSWUZ5dUxoelBXako5bVh3L2FFNzdVbHRvdis5WUpOcWtUbFNOL2FiR2JkcTFXLzBCUG1pOE9TamtKVnZWWW9pcEhCakZtZkROVGt4c2hhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=288939204035'
     }
   ];
 
